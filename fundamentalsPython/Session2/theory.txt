@@ -1,0 +1,130 @@
+   Variables & Data Types in Python:
+
+1) creating variables:
+   -> A variable used for store a value in memory.
+
+name = "kumkum"
+age = 21
+marks = 84.3
+is_student = True
+
+- name stores a string.
+- age store an integer.
+- marks store a float - point value.
+- is_student a boolean value.
+
+-------------------------------------------------------
+
+2)  Variable Naming Rules:
+
+ 1)Variable can contain letters, numbers, and underscore (_).
+ 2)Variable cannot start with a number.
+ 3)Variable cannot contain spaces.
+ 4)Variable names are case-sensitive.
+ 5)Python keywords cannot be used as variable names.
+-------------------------------------------------------
+3) Primitive & Non-Primitive Types
+
+Primitive/basic data types:
+
+int → whole numbers
+float → decimal numbers
+str → text
+bool → True/False
+
+Non-primitive/collection types:
+
+list
+tuple
+set
+dict
+
+Example:
+
+age = 22
+name = "Kumkum"
+marks = 85.5
+is_student = True
+
+subjects = ["Python", "SQL", "C"] 
+
+------------------------------------------
+4) type() Function
+
+The type() function tells us the data type of a variable.
+
+name = "Kumkum"
+age = 22
+marks = 85.5
+is_student = True
+
+print(type(name))
+print(type(age))
+print(type(marks))
+print(type(is_student))
+
+Output:
+
+<class 'str'>
+<class 'int'>
+<class 'float'>
+<class 'bool'>
+
+-----------------------------------------------
+5)id() Function
+
+The id() function returns the identity/memory address of an object during the program's execution.
+
+name = "Kumkum"
+age = 22
+
+print(id(name))
+print(id(age))
+
+The numbers will vary when you run the program.
+----------------------------------------------------
+6)Example – Student Profile
+# Student Profile
+
+student_name = "Kumkum"
+student_age = 22
+student_course = "MSc IT"
+student_marks = 85.5
+is_student = True
+
+print("Student Name:", student_name)
+print("Age:", student_age)
+print("Course:", student_course)
+print("Marks:", student_marks)
+print("Is Student:", is_student)
+
+print("\nData Types:")
+print(type(student_name))
+print(type(student_age))
+print(type(student_course))
+print(type(student_marks))
+print(type(is_student))
+
+print("\nMemory Address:")
+print("Name:", id(student_name))
+print("Age:", id(student_age))
+print("Course:", id(student_course))
+Expected Output
+Student Name: Kumkum
+Age: 22
+Course: MSc IT
+Marks: 85.5
+Is Student: True
+
+Data Types:
+<class 'str'>
+<class 'int'>
+<class 'str'>
+<class 'float'>
+<class 'bool'>
+
+Memory Address:
+Name: 140xxxxxxx
+Age: 140xxxxxxx
+Course: 140xxxxxxx
+   

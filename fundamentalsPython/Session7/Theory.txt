@@ -1,0 +1,4 @@
+continue → current iteration ko skip karta hai.
+break → poori loop ko stop karta hai.
+pass → kuch nahi karta; 
+       placeholder ke liye use hota hai.

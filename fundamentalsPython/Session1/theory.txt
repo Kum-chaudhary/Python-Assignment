@@ -1,0 +1,294 @@
+Introduction to python :
+
+1) what is Python ?
+-> python is a high - level, general purpose programming language known for its simple syntax and readability.
+-> it was created by guido van rossum and first released in 1991.
+
+Example : 
+         print("Hello world")
+
+-> python lets you write instructions that a computer can execute.
+-> it's syntax is designed to be reletively close to human - readable language.
+
+                     key characteristics :-
+    1) Easy to learn
+    2) High - level 
+    3) Interpreted
+    4) Dynamically typed
+    5) Cross - platform 
+    6) Open - source 
+
+--------------------------------------------------------------------------------
+
+2) Why Python ?
+-> python is a popular beacuse it allows developers to focus more on solving problem 
+   and less on complicated syntax.
+
+Example :
+     printing number from 1 to 5 is very simple :
+
+      for i in range(1,6):
+      print(i)
+
+
+                   Major Advantage :-
+--------------------------------------------------------------------|
+Advantage	         |            Explanation                       |
+--------------------------------------------------------------------|
+Simple syntax	     |        Easy to read and write
+Fast development	 |        Less code is often required
+Huge ecosystem	     |        Many libraries are available
+Community support	 |        Large global developer community
+Versatile	         |        Useful across many different fields
+Portable	         |        Runs on multiple operating systems  
+---------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+
+3) python Uses Cases : 
+  -> python is not limited to one type of development.
+
+  * web development:
+
+   popular frameworks include:
+    - Django
+    - Flask
+    - FastAPI
+   
+   Example applications:
+   - websites
+   - REST APIs
+   - backend services
+   - web applications
+
+    * Data Science :
+
+    python is widly used for :
+
+     - data analysis
+     - data visualization
+     - statical analysis
+
+     * popular libraries:
+
+        NumPy
+        Pandas
+        Matplotlib
+        Seaborn   
+
+
+Artificial Intelligence & Machine Learning:-
+
+ * Python is heavily used in:
+
+ Machine learning
+ Deep learning
+ Natural language processing
+ Computer vision
+ Generative AI    
+
+Common libraries include:
+
+ scikit-learn
+ TensorFlow
+ PyTorch    
+
+----------------------------------------------------------------------------
+
+4) Installing Python :
+
+-> The first thing we need is the Python interpreter.
+
+-> Download Python from the official Python website:
+   Python.org
+-> Windows installation  :
+    1) Download the latest stable Python 3 release.
+    2) Run the installer
+    3) Check "Add Python to PATH".
+    4) Click Install Now.
+    5) Open Command Prompt.
+    6) Verify the installation: python --version
+
+---------------------------------------------------------------------------------
+
+5) Installing VS Code : 
+
+-> Visual Studio Code (VS Code) is a source-code editor that we can
+   use to write and run Python programs.
+
+ -> Download it from the official site: visualstudio.com
+ -> After installing VS Code:
+
+      1) Open VS Code.
+      2) Open Extensions.
+      3) Search for Python.
+      4) Install the Python extension from Microsoft.
+      5) Create a folder for your Python programs. 
+
+------------------------------------------------------------------------------
+
+6) Running first python program :
+
+   Create a file called :
+     hello.py 
+
+   Add :
+     print("Hello world") 
+
+   save the file.
+
+   run vs code terminal:
+     python hello.py 
+      
+   output: Hello world 
+
+-----------------------------------------------------------------------
+
+7) Understading print() :
+   print() is a built-in Python function used to display information.
+
+   print("Hello")
+   print("Welcome to Python")
+   print(100)
+
+output :
+   Hello
+   Welcome to Python
+   100 
+
+You can also print multiple values:
+
+   name = "Rahul"
+   age = 20
+   print(name, age) 
+
+output:
+   Rahul 20
+
+-----------------------------------------------------------------------------
+
+8) Python Code Execution Model:
+ 
+  Understanding how Python executes your code is important.
+
+consider:
+   print('A')
+   print('B')
+   print('C')
+
+Python normally executes these statements from top to bottom.
+
+            Python source code
+                   ↓
+             Python runtime
+                   ↓
+                Execute
+                   ↓
+                Output
+
+ * What happens internally ?
+
+                 hello.py
+                     ↓
+               Python interpreter
+                     ↓
+               Python bytecode
+                     ↓
+         Python Virtual Machine (PVM)
+                     ↓
+               Program output
+
+--------------------------------------------------------------------------
+
+9) Interactive Mode vs Script Mode :
+ ->Python can be used in two common ways.
+
+ i) Interactive mode: 
+
+ ->   Start Python from the terminal: 
+      python
+
+     then type : 
+      >>> 2 + 3
+       5
+
+   see the immediately result.
+
+   this is used for :
+     - learning python 
+     - quick calculations
+
+    Exit with :
+      Exit()
+
+  ii) script mode:
+  ->   Instead of entering code one line at a time, save it in a .py file :
+
+       calculator.py
+        
+         a = 10 
+         b = 20
+
+        print(a + b)
+
+      run :
+        output : 
+            30
+
+----------------------------------------------------------------------
+
+10) A Simple Mental Model: 
+  ->  python program like this : 
+
+               You write Python code
+                        ↓
+                     .py file
+                        ↓
+            Python runtime processes it
+                        ↓
+                  Python bytecode
+                        ↓
+               Python Virtual Machine
+                        ↓
+         Computer performs the instructions
+                        ↓
+                Output / Result
+
+------------------------------------------------------------------------
+11) Practice Exercise :
+ 
+    create Pro1.py 
+     
+     print("my name is _______")
+     print("I'm learing python.")
+     print("Python is an interesting")
+     print(10 + 20)
+
+  then Run:
+     python Pro1.py 
+
+print("===================")
+print("Python course")
+print("===================")
+name = input("your name :")
+print("Name :",name)
+age = int(input("Enter age:"))
+print("Age :",age)
+print("I'm learning python !")
+
+output:- 
+         ===================
+            Python course
+         ===================
+         your name :kumkum
+         Name : kumkum
+         Enter age:21
+         Age : 21
+         I'm learning python !
+         
+-----------------------------------------------------------------         
+
+
+
+
+

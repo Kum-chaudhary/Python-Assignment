@@ -1,0 +1,55 @@
+Python vs C vs Java execution:
+
+Python:-
+
+Python is generally described as an interpreted language. When you run a Python program,
+ the Python interpreter processes the program and executes it. In CPython, Python source
+  is first compiled to bytecode, which is then executed by the Python virtual machine.
+
+Example:-
+
+print("Hello")
+print(10 + 20)
+
+output:-
+Hello
+30
+
+run directly:-
+python program.py
+
+C :-
+
+C is normally a compiled language. The C source code is compiled
+ by a compiler into machine code, and the resulting executable is then run.
+
+Example :-
+#include <stdio.h>
+
+int main() {
+    printf("Hello\n");
+    return 0;
+}
+
+compiled:-
+gcc hello.c -o hello
+
+run:-
+hello
+
+Java:-
+
+Java source code is first compiled into bytecode using the Java compiler.
+ The bytecode is then executed by the Java Virtual Machine (JVM).
+
+class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
+}
+
+compiled:-
+javac Hello.java
+
+run:-
+java Hello
